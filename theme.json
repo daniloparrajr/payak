@@ -137,6 +137,35 @@
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
+		"blocks": {
+			"core/paragraph": {
+				"spacing": {
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--xs)"
+					}
+				}
+			},
+			"core/list": {
+				"spacing": {
+					"padding": {
+						"left": "var(--wp--preset--spacing--sm)"
+					},
+					"margin": {
+						"top": "var(--wp--preset--spacing--xs)"
+					}
+				}
+			},
+			"core/list-item": {
+				"spacing": {
+					"margin": {
+						"top": "0.5em",
+						"bottom": "0.5em"
+					}
+				}
+			},
+			"core/gallery": {
+			}
+		},
 		"elements": {
 			"heading": {
 				"typography": {
@@ -178,8 +207,8 @@
 		"spacing": {
 			"padding": {
 				"bottom": "0px",
-				"left": "0",
-				"right": "0",
+				"left": "var(--wp--preset--font-size--sm)",
+				"right": "var(--wp--preset--font-size--sm)",
 				"top": "0px"
 			}
 		},
